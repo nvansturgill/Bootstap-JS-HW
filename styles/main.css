@@ -1,0 +1,34 @@
+
+  /* Global Styles */
+  * {
+    text-align: center;
+  }
+
+  body {
+    margin-top: 100px;
+  }
+
+  /* Heading Styles */
+  h1 {
+    font-size: 1.75rem;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  /* Box Styles */
+  .box {
+    margin: 25px;
+    height: 175px;
+  }
+  #box01 {
+    background-color: red;
+    border: 5px solid black;
+  }
+  #box02 {
+    background-color: blue;
+    border: 5px dashed yellow;
+  }
+  #box03 {
+    background-color: lawngreen;
+    border: 5px solid magenta;
+  }
