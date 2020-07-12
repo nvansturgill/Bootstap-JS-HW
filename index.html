@@ -35,17 +35,17 @@
         </div>
       </div>
       <div class="row changeBox">
-        <div class="col col-3" id="changebox01">
-          <p class="btn change">Change Box 1</p>
+        <div class="col col-3 change" onclick="changeColor('box01', '#90BE6D', '#F9C74F')" id="changebox01">
+          <button class="btn">Change Box 1</button>
         </div>
-        <div class="col col-3" id="changebox02">
-          <p class="btn change">Change Box 2</p>
+        <div class="col col-3 change" onclick="changeColor('box02', '#F9C74F', '#BC3908')" id="changebox02">
+          <p class="btn">Change Box 2</p>
         </div>
-        <div class="col col-3" id="changebox03">
-          <p class="btn change">Change Box 3</p>
+        <div class="col col-3 change" onclick="changeColor('box03', '#BC3908', '#90BE6D')" id="changebox03">
+          <button class="btn">Change Box 3</button>
         </div>
-        <div class="col col-3" id="changeAll">
-          <p class="btn change">Change All</p>
+        <div class="col col-3" onclick="changeAll()" id="changeAll">
+          <button class="btn">Change All</button>
         </div>
       </div>
 
@@ -56,32 +56,36 @@
         </div>
       </div>
       <div class="row changeBox">
-        <div class="col col-3" id="hidebox01">
-          <p class="btn change">Hide Box 1</p>
+        <div class="col col-3" onclick="hide('box01')" id="hidebox01">
+          <button class="btn change">Hide Box 1</button>
         </div>
-        <div class="col col-3" id="hidebox02">
-          <p class="btn change">Hide Box 2</p>
+        <div class="col col-3" onclick="hide('box02')" id="hidebox02">
+          <button class="btn change">Hide Box 2</button>
         </div>
-        <div class="col col-3" id="hidebox03">
-          <p class="btn change">Hide Box 3</p>
+        <div class="col col-3" onclick="hide('box03')" id="hidebox03">
+          <button class="btn change">Hide Box 3</button>
         </div>
-        <div class="col col-3" id="changeAll">
-          <p class="btn change">Hide All</p>
+        <div class="col col-3" onclick="hideAll()">
+          <button class="btn change">Hide All</button>
         </div>
       </div>
 
       <!-- Reset Button Row -->
       <div class="row changeBox">
-        <div class="col col-3" id="resetColors">
-          <p class="btn resetColors">Reset Colors</p>
+        <div class="col col-3" onclick="colorReset()" id="resetColors">
+          <button class="btn resetColors">Reset Colors</button>
         </div>
         <div class="col col-6 hide">
         </div>
-        <div class="col col-3" id="showAll">
-          <p class="btn showAll">Show All</p>
+        <div class="col col-3" onclick="showAll()" id="showAll">
+          <button class="btn showAll">Show All</button>
         </div>
       </div>
     </div>
+
+    <!-- External JavaScript -->
+    <script type="text/javascript" src="scripts/main.js">
+    </script>
 
   </body>
 </html>

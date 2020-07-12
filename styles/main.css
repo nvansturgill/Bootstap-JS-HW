@@ -3,10 +3,9 @@
   * {
     text-align: center;
   }
-
-  body {
-    margin-top: 100px;
-    margin-bottom: 100px;
+  .row {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   /* Heading Styles */
