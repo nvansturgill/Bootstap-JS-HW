@@ -6,13 +6,25 @@
 
   body {
     margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   /* Heading Styles */
-  h1 {
-    font-size: 1.75rem;
+  h1, h2, h3 {
     font-weight: normal;
     text-decoration: underline;
+  }
+  h2, h3 {
+    color: blue;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
   }
 
   /* Box Styles */
@@ -31,4 +43,14 @@
   #box03 {
     background-color: lawngreen;
     border: 5px solid magenta;
+  }
+
+  /* Button Styles */
+  .btn {
+    background-color: silver;
+    height: auto;
+    padding: .5rem;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 0%;
   }
